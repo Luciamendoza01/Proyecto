@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    a {text-decoration: none;} text-decoration: none;
+   /* img {max-width: 100%} */;
+}
+/*header*/
+.header-psicopedagogia {background-color: rgba(0, 255, 187, 0.151);}
+#logo{width:50px;
+    height: 50px;
+border-radius: 50%;}
+
+
+
+
+.h1-psicopodagogia
+
+{position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    z-index: 1;
+    padding: 20px;}
+ 
+ 
+
+ nav{
+  display: position;
+    position: relative;}
+ .barra-navegacion {
+    text-align: center;
+ }
+
+
+.caja-1 {border: 1px solid black;
+    padding-top:10px;
+    padding-right:10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+   
+}
+
+#imagen-central {width:40%;
+height: 40%;
+border: 1px solid black;
+padding: 10px;
+margin: 10px;
+text-align: center;
+} /* botones - No me hace ningun cambio*/ 
+#boton { border: 1px solid gray;
+background-color: gray;
+display: flex;
+justify-content: center;}    
+    
+
+
+/*caja 2*/
+
+.caja-2 {
+    display: flex;
+    justify-content: row;
+    width: 400px;
+    height: 250pax;
+
+    padding-top:10px;
+    padding-right:10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+
+}
+#servicios1 {background-color: yellowgreen;
+    align-items: center;
+    
+    justify-content: space-between;
+}
+
+/*caja 3*/ 
+
+.caja-3
+
+#imagen-notas {height: 300px;
+width: 300px;}
+
+.form {
+    width: 40px;
+    height: 40px;
+    padding: 15%;
+    border: 2px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+/*Media Query 
+@media (min-width:480px) {
+    .caja-2 {background-color: blue;}
+}
+
+#imagen-notas:hover {max-width: 40%;} }

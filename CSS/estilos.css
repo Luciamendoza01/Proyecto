@@ -1,0 +1,138 @@
+/* Este es un comentario en CSS */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    a {text-decoration: none;} text-decoration: none;
+        
+
+
+/*Psicopedagogia
+
+header {    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.barra-navegacion {
+
+    padding: 20px; 
+    color: white;
+    width: fit-content;
+    border-radius: 16px;
+border-color: black;
+
+    }*/ 
+
+/*ACA EMPIEZA LA CAJA 1 - PORTADA*/
+    
+.caja-1{
+    border-color: black;
+margin: 20px, 20px, 20px, 20 px;
+
+display: flex; 
+display: inline;
+justify-content: space-between;
+align-items:end;
+padding: 20px;
+gap: 15px;
+
+}
+
+
+    .boton-nosotros {display: block;
+        margin-top: 20px;
+        border: 2px solid;
+        padding: 8x 10px;
+        color: black;
+        border-radius: 16px;
+        
+
+        
+    }
+
+/*ACA EMPIEZA CAJA 2*/
+.caja-2 {margin-top: 10px;}
+#servicios1 {background-color: brown;
+display: flex;
+    align-items: center; 
+    justify-content: center;/* Centra verticalmente */
+    } 
+    /* Altura del contenedor */
+ /*información de pág Psicopadegaogia*/   
+
+
+#imagine-1
+#imagen-central {
+    width: 400px;
+    height: 400px;}
+
+#informacion-portada {display:inline} 
+
+/* propiedad display solo a la pag. atencion consultorio*/
+
+a-t {
+    align-self: flex-start;
+}
+
+/* Tipo de letra */
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Tamaño logo */
+#logo {
+    width: 80px;
+    height: 80px;
+    position: sticky;
+    top: 0%
+}
+
+/* Tamaño imágines */
+#t-imagenes {
+    width: 200px;
+    height: 200px;
+
+}
+
+#imagen-notas {
+    width: 50%;
+    height: 50%;
+}
+
+#imagen-central {
+    width: 400px;
+    height: 400px;
+}
+
+#imagen-central {
+    display: inline-block;
+}
+
+/* Tamaño mapa */
+#mapa {
+    width: 50%;
+    height: 50%;
+
+}
+
+/* h2 */
+h2 {
+    text-decoration: underline
+}
+
+/* Color fondo - header y footer */
+header {
+    background-color: #bbf7fd;
+}
+
+footer {
+    background-color: #bbf7fd;
+}
+
+#logo-footer {
+ width: 80px;
+    height: 80px;
+    position: sticky;
+    top: 0%}
+}
