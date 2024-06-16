@@ -2,11 +2,19 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    a {text-decoration: none;} text-decoration: none;
+    a {
+        color: white;
+        text-decoration: none; /* Opcional: elimina el subrayado */
+    }
+    
+    a:hover {
+        color: #ccc; /* Opcional: cambia el color al pasar el mouse */
+        text-decoration: underline; /* Opcional: subraya el enlace al pasar el mouse */
+    }
    /* img {max-width: 100%} */;
 }
 /*header*/
-.header-psicopedagogia {background-color: rgba(0, 255, 187, 0.151);}
+.header-psicopedagogia {background-color:#1A5276;}
 #logo{width:50px;
     height: 50px;
 border-radius: 50%;}
@@ -70,18 +78,24 @@ justify-content: center;}
     padding-left: 10px;
 
 }
-#servicios1 {background-color: yellowgreen;
+#servicios1 {background-color: #0077b6;
     align-items: center;
-    
+
     justify-content: space-between;
 }
 
 /*caja 3*/ 
 
-.caja-3
+.caja-3 {text-align: center;}
+    .notas-de-interes { 
+    flex-direction: column;
+justify-content: space-around;
 
-#imagen-notas {height: 300px;
-width: 300px;}
+
+     }
+
+#imagen-notas {height: 400px;
+width: 400px;}
 
 .form {
     width: 40px;
@@ -95,8 +109,58 @@ width: 300px;}
 
 
 
+/*probado*/
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.responsive-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Estilos para móviles */
+@media (max-width: 500px) {
+    .responsive-image     {
+        display: none;
+    }
+.caja-3 {display:none;}
+.form {display: none;}
+
+.content {
+    text-align: left;
+}
+
+.content p {
+    margin: 10px 0;
+} }
 
 
+
+.footer {
+    background-color: #1A5276;
+    
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer-logos {
+    display: flex;
+    position: relative; top: 80px;
+    left: 80px;
+
+    gap: 20px; /* Espacio entre los logos */
+}
 
 
 
@@ -107,3 +171,4 @@ width: 300px;}
 }
 
 #imagen-notas:hover {max-width: 40%;} }
+.footer {background-color: #1A5276;}
