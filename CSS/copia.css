@@ -1,0 +1,240 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    a {
+        color: black;
+        text-decoration: none; /*Elimina el subrayado */
+    }
+    
+    a:hover {
+        color: #ccc; /*cambia el color al pasar el mouse */
+        text-decoration: underline; /* subraya el enlace al pasar el mouse */
+    }
+   /* img {max-width: 100%} */;
+}
+/*header*/
+.header-psicopedagogia {background-color:#1A5276;}
+#logo{width:50px;
+    height: 50px;
+border-radius: 50%;}
+
+
+
+
+.h1-psicopodagogia
+
+{position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    z-index: 1;
+    padding: 20px;}
+ 
+ 
+
+ nav{
+  display: position;
+    position: relative;}
+ .barra-navegacion {
+    text-align: center;
+ }
+
+
+.caja-1 {border: 1px solid black;
+    padding-top:10px;
+    padding-right:10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+   
+}
+
+#imagen-central {width: 30%;
+    height: auto; /* Mantener la proporción de la imagen */
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    float: right;
+     /* Flota la imagen a la derecha */
+     padding-top:10px;
+     padding-right:10px;
+     padding-bottom: 10px;
+     padding-left: 10px;
+
+} 
+
+/*TEXTO PASAR A SER EN BLOQUE*/
+.parrafo-1 {
+margin: 10px; /* Ajusta el margen según sea necesario */
+    overflow: hidden; /* Asegura que el texto no se desborde debajo de la imagen */
+}
+/* botones - No me hace ningun cambio*/ 
+#boton { border: 1px solid gray;
+background-color: gray;
+display: flex;
+justify-content: center;}    
+    
+
+
+/*caja 2*/
+
+.caja-2 {
+    display: flex;
+    justify-content: row;
+    width: 400px;
+    height: 250pax;
+
+    padding-top:10px;
+    padding-right:10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+
+}
+#servicios1 {background-color: #0077b6;
+    align-items: center;
+
+    justify-content: space-between;
+}
+
+/*caja 3*/ 
+#imagen-notas {height: 30%;
+    width: 30%;}
+
+.caja-3 {max-width: 1200px;
+    margin:0 auto;
+padding: 20px;}
+
+.caja-3 h2{
+    display:flex;
+    align-items: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.caja-3 h2::before {
+    content: "";
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-image: url('<i class="bi bi-info-circle"></i>'); 
+    background-size: cover;
+    margin-right: 10px;
+
+    .article {
+        display: inline-block;
+        width: 22%;
+        margin: 1%;
+        vertical-align: top;
+    } }
+    
+    
+    
+    .article h3 {
+        font-size: 18px;
+        margin: 10px 0;
+    }
+    
+    .article p {
+        color: #007bff;
+        font-weight: bold;
+    }
+
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.responsive-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* INFORMACIÓN CONTACTO*/
+
+.info-contacto {background-color: #1A5276;}
+
+
+#mapa {width: 100%;
+
+}
+
+
+/* FOOTER  */
+
+
+    .footer {
+        background-color: #1A5276;
+        padding: 10px; /* Añadir algo de relleno para estética */
+    }
+    
+    .footer-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .footer-logos {
+        display: flex;
+        align-items: center;
+    }
+    
+    .footer-logos ul {
+        display: flex;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    
+    .footer-logos li {
+        margin: 0 10px; /* Espacio entre los elementos de la lista */
+    }
+    
+    #logo {
+        /* El margin-left: auto se encarga de empujar el logo a la derecha */
+        margin-left: auto;
+    }
+    
+    
+/* Media Query Psicopedagogia */
+@media (max-width: 480px) {
+    .caja-3 {display: none;} }
+
+
+/* Comienzo de pantalla 2* pag Nosotros*/
+
+#t-imagenes 
+{width: 30%;
+    border: 1 px solid rgb(255, 0, 0);
+
+    margin: 3cm;
+}
+.descripcion { font-size: 20px;
+}
+ .profesional1 {
+            display: flex;
+            align-items: center; /* Alinea verticalmente la imagen y el texto */
+        
+        .profesional1 img {
+            margin-right: 20px; /* Espacio entre la imagen y el texto */
+        }
+        .profesional1 .texto {
+            flex: 1; /* Hace que el texto ocupe el espacio restante */
+        }
+    }
+    
+.h3-profesionales {
+     padding-left: 5%;
+    font-size: 30px;
+text-decoration: underline;}
+
+p {
+    font-size: 18px;  /* Tamaño de letra */
+    color: #333;      /* Color del texto */
+    line-height: 1.6; /* Altura de línea */
+    margin-bottom: 15px; /* Margen inferior */
+}
